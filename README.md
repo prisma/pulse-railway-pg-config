@@ -17,6 +17,16 @@ Then feel free to delete the service that was created with the template. It shou
 -   Navigate to the **Settings** tab
 -   Scroll down and click the **Delete Service from All Environments** button
 
+If you want to build on top of this repo you can remove the config script and file.
+
+-   Run this command in the root of the directory
+
+```bash
+    rm -rf config
+```
+
+-   In the `package.json` file remove the `start` script.
+
 ## How to connect Pulse to your database
 
 [Link to Pulse docs](https://prismaio.notion.site/Pulse-documentation-137ca256325d4a22b80b54a89975f059?pvs=25#f241de6db85f42f5a6db7d27efbd73a1)
