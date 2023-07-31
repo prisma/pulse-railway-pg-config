@@ -1,6 +1,6 @@
 # Create a Pulse-ready postgres database on railway.app
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/THgEmX?referralCode=VQ09uv)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/pulse-pg)
 
 > Pulse is currently in early access. Please sign up [here](https://prisma.io/pulse) or join our [discord](https://pris.ly/discord) and reach out to a developer advocate.
 
