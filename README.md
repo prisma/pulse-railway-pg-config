@@ -23,10 +23,10 @@
     -   Once you have cloned the repo you can run the following command.
 
     ```bash
-     rm -rf config
+     rm config-db.ts
     ```
 
-    -   Then remove the start `script: ts-node config/config-db.ts` from the `scripts` object in the `package.json` file.
+    -   Then remove the script `start: ts-node config-db.ts` from the `scripts` object in the `package.json` file.
 
     > This is to prevent the script form running everytime you push up to the repo acssociated with the **restart-db-then-delete-me** service.
 
