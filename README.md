@@ -51,3 +51,8 @@
 Once you have done that you will need to wait for Pusle to establish the connection. This can take a few minutes.
 
 Now you can follow [this part](https://prismaio.notion.site/Pulse-documentation-137ca256325d4a22b80b54a89975f059#e8420b42cfd24b94aa6848a2c4993855) of the Pulse documentation to get started using Pulse in your projects.
+
+## More example Pulse projects
+
+-   [Pulse Railway Starter Project](https://github.com/prisma/pulse-railway-starter)
+-   [Pulse Multi-Subscription Project](https://github.com/prisma/pulse-starter)
