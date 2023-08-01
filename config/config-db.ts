@@ -18,7 +18,10 @@ async function main() {
 			await db.query("ALTER SYSTEM SET max_replication_slots = 20");
 			await db.query("ALTER SYSTEM SET wal_keep_size = 2048");
 			await db.query("SELECT pg_reload_conf()");
-			console.log("All done please restart the database");
+			console.log(
+				"All done please restart the database and delete this service."
+			);
+			console.log("Here is the DATABASE_URL", process.env.DATABASE_URL);
 			return;
 		}
 		console.log("DB is already configured");
@@ -28,11 +31,11 @@ async function main() {
 }
 
 main()
-	.then(async () => {
-		await pool.end();
+	.then(() => {
+		pool.end();
 		console.log("Db config script complete");
 	})
-	.catch(async (err) => {
-		await pool.end();
+	.catch((err) => {
+		pool.end();
 		console.log(err);
 	});
