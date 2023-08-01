@@ -4,6 +4,14 @@
 
 > Pulse is currently in early access. Please sign up [here](https://prisma.io/pulse) or join our [discord](https://pris.ly/discord) and reach out to a developer advocate.
 
+---
+
+### Resources
+
+-   [Pulse setup video](https://www.youtube.com/watch?v=Lvn05wM26zs)
+-   [Pulse annoucment blog post](https://www.prisma.io/blog/introducing-pulse-jtu4UPC8ujy4)
+-   [Pulse documentation](https://pris.ly/pulse-docs)
+
 ## Once the template is deployed
 
 ### Get your database connection string and delete the service
