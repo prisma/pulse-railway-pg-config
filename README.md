@@ -2,15 +2,9 @@
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/THgEmX?referralCode=VQ09uv)
 
+This project is used to configure a Postgres database on [railway.app](https://railway.app) to be used with [Pulse](https://prisma.io/pulse). This enables you to quickly set up a database without having to do any configuration. Click the template button above to get started.
+
 > Pulse is currently in early access. Please sign up [here](https://prisma.io/pulse) or join our [discord](https://pris.ly/discord) and reach out to a developer advocate.
-
----
-
-### Resources
-
--   [Pulse setup video](https://www.youtube.com/watch?v=Lvn05wM26zs)
--   [Pulse annoucment blog post](https://www.prisma.io/blog/introducing-pulse-jtu4UPC8ujy4)
--   [Pulse documentation](https://pris.ly/pulse-docs)
 
 ## Once the template is deployed
 
@@ -42,7 +36,7 @@
 
 ## How to connect Pulse to your database
 
-[Link to Pulse docs](https://prismaio.notion.site/Pulse-documentation-137ca256325d4a22b80b54a89975f059?pvs=25#f241de6db85f42f5a6db7d27efbd73a1)
+[Documentation Reference](https://prismaio.notion.site/Pulse-documentation-137ca256325d4a22b80b54a89975f059?pvs=25#f241de6db85f42f5a6db7d27efbd73a1)
 
 -   Go to your [prisma data platform dashboard](https://cloudprojects.prisma.io)
 -   Click on the project you want to add Pulse to (or create a new one)
@@ -59,3 +53,9 @@ Now you can follow [this part](https://prismaio.notion.site/Pulse-documentation-
 
 -   [Pulse Railway Starter Project](https://github.com/prisma/pulse-railway-starter)
 -   [Pulse Multi-Subscription Project](https://github.com/prisma/pulse-starter)
+
+## More Information about Pulse
+
+-   [Pulse setup video](https://www.youtube.com/watch?v=Lvn05wM26zs)
+-   [Pulse annoucment blog post](https://www.prisma.io/blog/introducing-pulse-jtu4UPC8ujy4)
+-   [Pulse documentation](https://pris.ly/pulse-docs)
