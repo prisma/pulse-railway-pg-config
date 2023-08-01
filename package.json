@@ -4,7 +4,7 @@
 	"description": "Used to configure a postgres database for use with Pulse on railway.app",
 	"main": "index.js",
 	"scripts": {
-		"start": "ts-node config/config-db.ts"
+		"start": "ts-node config-db.ts"
 	},
 	"author": "Marc Hess",
 	"license": "MIT",
