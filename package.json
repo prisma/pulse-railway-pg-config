@@ -1,6 +1,6 @@
 {
-	"name": "pulse-railway-template",
-	"version": "0.0.1",
+	"name": "pulse-railway-pg-config",
+	"version": "0.0.2",
 	"description": "Used to configure a postgres database for use with Pulse on railway.app",
 	"main": "index.js",
 	"scripts": {
