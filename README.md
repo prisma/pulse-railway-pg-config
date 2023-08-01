@@ -25,18 +25,13 @@
 -   Close the logs view with the **X** in the top right corner of the opened drawer.
 -   Navigate to the settings tab of the `restart-db-then-delete-me` service.
 -   Scroll down to the bottom and click the red **Delete Service from All Environments** button.
-
     > Note: If you would like to use this service and the corresponding repo to create a new Pulse project. You can by cloning the repo from your github account to your local machine.
-
     -   Once you have cloned the repo you can run the following command.
-
-    ```bash
-     rm config-db.ts
-    ```
-
+        ```bash
+         rm config-db.ts
+        ```
     -   Then remove the script `start: ts-node config-db.ts` from the `scripts` object in the `package.json` file.
-
-    > This is to prevent the script form running everytime you push up to the repo acssociated with the **restart-db-then-delete-me** service.
+        > This is to prevent the script form running everytime you push up to the repo acssociated with the **restart-db-then-delete-me** service.
 
 ### Restart your database
 
