@@ -59,7 +59,7 @@ Now you can follow [this part](https://prismaio.notion.site/Pulse-documentation-
 -   [Pulse Railway Starter Project](https://github.com/prisma/pulse-railway-starter)
 -   [Pulse Multi-Subscription Project](https://github.com/prisma/pulse-starter)
 
-## More Information about Pulse
+## More information about Pulse
 
 -   [Pulse setup video](https://www.youtube.com/watch?v=Lvn05wM26zs)
 -   [Pulse annoucment blog post](https://www.prisma.io/blog/introducing-pulse-jtu4UPC8ujy4)
