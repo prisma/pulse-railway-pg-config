@@ -4,8 +4,6 @@
 
 This project is used to configure a Postgres database on [railway.app](https://railway.app) to be used with [Prisma Pulse](https://prisma.io/pulse). This enables you to quickly set up a database without having to do any configuration. Click the `Deploy on Railway` button above to get started.
 
-> Pulse is currently in Early Access. Please sign up [here](https://prisma.io/pulse) or join our [Discord](https://pris.ly/discord) and reach out to a Developer Advocate.
-
 ## Once the template is deployed
 
 ### Get your database connection string and delete the service
