@@ -2,7 +2,7 @@
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/pulse-pg)
 
-This project is used to configure a Postgres database on [Railway](https://railway.app) to be used with [Prisma Pulse](https://prisma.io/pulse). This enables you to quickly set up a database without having to do any configuration. Click the `Deploy on Railway` button above to get started.
+This project is used to configure a Postgres database on [Railway](https://railway.app) to be used with [Prisma Pulse](https://prisma.io/pulse). This enables you to quickly set up a database without having to do any configuration. Click the **Deploy on Railway** button above to get started.
 
 ## Once the template is deployed
 
