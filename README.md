@@ -6,8 +6,8 @@ This project is used to configure a Postgres database on [Railway](https://railw
 
 ## Once the template is deployed
 
-- Follow the [guide](https://pris.ly/railway-template-setup-docs) to set up Prisma Pulse using the Railway template.
-- Then, you can follow the [documentation](https://pris.ly/d/pulse-getting-started) to start using Prisma Pulse in your project.
+1. Follow the [guide](https://pris.ly/railway-template-setup-docs) to set up Prisma Pulse using the Railway template.
+2. Then, you can follow the [documentation](https://pris.ly/d/pulse-getting-started) to start using Prisma Pulse in your project.
 
 ## Resources
 
