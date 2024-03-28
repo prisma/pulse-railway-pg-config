@@ -7,13 +7,13 @@ const connection = {
 	password: process.env.PGPASSWORD,
 	port: Number(process.env.PGPORT),
 };
+
 const pool = new Pool(connection);
 async function main() {
 	try {
 		const db = await pool.connect();
 		const wal = await db.query("SHOW wal_level");
 		if (wal.rows[0].wal_level != "logical") {
-			await db.query("DROP EXTENSION IF EXISTS timescaledb");
 			await db.query("ALTER SYSTEM SET wal_level = logical");
 			await db.query("ALTER SYSTEM SET max_replication_slots = 20");
 			await db.query("ALTER SYSTEM SET wal_keep_size = 2048");
