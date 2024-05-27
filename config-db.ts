@@ -15,7 +15,11 @@ async function main() {
 		const wal = await db.query("SHOW wal_level");
 		if (wal.rows[0].wal_level != "logical") {
 			await db.query("ALTER SYSTEM SET wal_level = logical");
+			// Unless you have a reason for a different configuration, 
+			// `max_replication_slots` and `max_wal_senders` should have 
+			// the same value
 			await db.query("ALTER SYSTEM SET max_replication_slots = 20");
+			await db.query("ALTER SYSTEM SET max_wal_senders = 20");
 			await db.query("ALTER SYSTEM SET wal_keep_size = 2048");
 			await db.query("SELECT pg_reload_conf()");
 			console.log(
