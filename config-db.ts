@@ -35,10 +35,12 @@ async function main() {
       console.log(
         "All done please restart the database and delete this service."
       );
-      console.log("Here is the DATABASE_URL", process.env.DATABASE_URL);
+	  console.log(`Use the following DATABASE_URL to enable Prisma Pulse:\n\n${process.env.DATABASE_URL}?sslmode=disable`);
       return;
     }
-    console.log("DB is already configured");
+
+    console.log("DB is already configured\n");
+	console.log(`Use the following DATABASE_URL to enable Prisma Pulse:\n\n${process.env.DATABASE_URL}?sslmode=disable`);
   } catch (err) {
     console.log(err);
   }
@@ -47,7 +49,7 @@ async function main() {
 main()
   .then(() => {
     pool.end();
-    console.log("Db config script complete");
+    console.log("\nDb config script complete");
   })
   .catch((err) => {
     pool.end();
